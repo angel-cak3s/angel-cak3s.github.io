@@ -25,7 +25,7 @@ h2{
   border-style: none;
   border-radius: 50px;
   padding: 15px 80px;
-  margin-top: 23px;
+  margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
 
@@ -130,6 +130,40 @@ h2{
 
 
 @media only screen and (max-width: 460px) {
+
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #963737;
+    font-style: normal;
+    padding-top: 50px;
+  }
+
+  h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #963737;
+    font-style: normal;
+    margin: 15px;
+  }
+
+  .midbtn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFCF65;
+    font-style: normal;
+    text-decoration: none;
+    background-color: #963737;
+    border-style: none;
+    border-radius: 30px;
+    padding: 20px 70px;
+
+    position: relative; 
+    top: 120px;
+  }
   
   .qbtn{
     font-family: "Poppins", sans-serif;
@@ -141,7 +175,7 @@ h2{
     background-color: #963737;
     border-style: none;
     border-radius: 30px;
-    padding: 20px 100px;
+    padding: 20px 70px;
 
     position: relative; 
     top: 50px;
@@ -158,7 +192,7 @@ h2{
     background-color: #963737;
     border-style: none;
     border-radius: 30px;
-    padding: 20px 65px;
+    padding: 20px 40px;
 
     position: relative; 
     top: 120px;
@@ -174,16 +208,17 @@ h2{
     background-color: #963737;
     border-style: none;
     border-radius: 30px;
-    padding: 20px 95px;
+    padding: 20px 70px;
 
     position: relative; 
     top: 190px;
   }
 
   .ans_img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
   }
+
 
   .Nextbtn{
     font-family: "Poppins", sans-serif;
