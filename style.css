@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #DC3A3A;
+
+
+}
+
+.title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #FFFFFF;
+  font-style: normal;
+  padding-top: 150px;
+}
+
+
+.startbtn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #963737;
+  font-style: normal;
+  text-decoration: none; 
+  background-color: #FFCF65;
+  border-style: none;
+  border-radius: 30px;
+  padding: 15px 90px;
+
+  position: relative; 
+  top:385px;
+
+ 
+}
+
+.dragon{
+  width: 190px;
+  height: 190px;
+  padding-top: 35px ;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.lantern1{
+  width: 97px;
+  height: 83px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position:absolute ;
+  left: 760px;
+  top: 300px;
+
+}
+
+.lantern2{
+  width: 97px;
+  height: 83px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position:absolute ;
+  right: 760px;
+  top: 450px;
+}
+
+@media only screen and (max-width: 460px) {
+  .lantern1{
+    width: 97px;
+    height: 83px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position:absolute ;
+    left: 30px;
+    top: 300px;
+  }
+
+  .lantern2{
+    width: 97px;
+    height: 83px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position:absolute ;
+    right: 30px;
+    top: 480px;
+  }
+  
+}
