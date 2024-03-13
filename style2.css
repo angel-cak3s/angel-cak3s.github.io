@@ -137,13 +137,13 @@ h2{
     font-size: 40px;
     color: #963737;
     font-style: normal;
-    padding-top: 50px;
+    padding-top: 0px;
   }
 
   h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 20px;
     color: #963737;
     font-style: normal;
     margin: 15px;
@@ -215,8 +215,8 @@ h2{
   }
 
   .ans_img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 
 
